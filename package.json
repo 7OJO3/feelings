@@ -1,0 +1,12 @@
+{
+  name my-bot,
+  version 1.0.0,
+  description Discord bot for sending images,
+  main index8.js,
+  scripts {
+    start node index8.js
+  },
+  dependencies {
+    discord.js ^14.14.0
+  }
+}
