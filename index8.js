@@ -13,7 +13,7 @@ client.on('messageCreate', async (message) => {
     // التأكد من أن الرسالة في الروم المطلوب وأن المرسل ليس البوت نفسه
     if (message.channel.id === TARGET_CHANNEL_ID && !message.author.bot) {
         try {
-            const attachment = new AttachmentBuilder('./IMG_8637.jpg');
+            const attachment = new AttachmentBuilder('./IMG_9244.jpg');
             await message.channel.send({ files: [attachment] });
         } catch (error) {
             console.error('حدث خطأ أثناء إرسال الصورة:', error);
